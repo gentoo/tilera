@@ -1,0 +1,16 @@
+# Copyright 1999-2012 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: /var/cvsroot/gentoo-x86/profiles/arch/mips/make.defaults,v 1.10 2012/10/17 03:09:26 mattst88 Exp $
+
+# 2006/08/18 - Donnie Berkholz <dberkholz@gentoo.org>
+# Defaults for video drivers
+VIDEO_CARDS="fbdev impact newport"
+
+ARCH="tile"
+ACCEPT_KEYWORDS="${ARCH} ~tile"
+
+PROFILE_ARCH="tile"
+
+USE="-fortran -openmp"
+
+CHOST="tile-unknown-linux-gnu"

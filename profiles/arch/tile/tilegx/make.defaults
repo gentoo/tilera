@@ -1,0 +1,9 @@
+# Copyright 1999-2013 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
+CHOST="tilegx-unknown-linux-gnueabi"
+CFLAGS="-O2 -pipe -march=tilegx -mtune=tilegx"
+CXXFLAGS="${CFLAGS}"
+FFLAGS="${CFLAGS}"
+FCFLAGS="${CFLAGS}"

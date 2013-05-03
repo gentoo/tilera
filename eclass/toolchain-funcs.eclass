@@ -412,7 +412,8 @@ ninj() { [[ ${type} == "kern" ]] && echo $1 || echo $2 ; }
 						&& ninj sparc64 sparc \
 						|| echo sparc
 					;;
-		tile*)		echo tile;;
+		tilegx*)	ninj tilegx  tile;;
+		tilepro*)	ninj tilepro tile;;
 		vax*)		echo vax;;
 		x86_64*freebsd*) echo amd64;;
 		x86_64*)
